@@ -6,6 +6,7 @@ theeList = ["???: Outro video jogo, não?", "???: Vós conhece o primeiro.", "??
 "???: Odeio ter de abrir os olhos de uns.","???: Mas... a Sheller está esperando vós.",
 "Zacharie: Também estárei."]
 
-for x in theeList:
-  print(x)
-  time.sleep(1)
+def DebuggingProcess():
+  for x in theeList:
+    print(x)
+    time.sleep(1)
